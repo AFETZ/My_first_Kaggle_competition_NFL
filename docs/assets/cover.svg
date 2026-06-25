@@ -1,0 +1,41 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NFL Big Data Bowl machine learning pipeline</title>
+  <desc id="desc">Stylized football field with data pipeline nodes for feature engineering, LightGBM, MLP residuals, and Kaggle submission.</desc>
+  <rect width="1200" height="360" rx="24" fill="#102018"/>
+  <rect x="34" y="34" width="1132" height="292" rx="18" fill="#173923"/>
+  <g opacity=".38" stroke="#d8f3dc" stroke-width="2">
+    <path d="M114 34v292M214 34v292M314 34v292M414 34v292M514 34v292M614 34v292M714 34v292M814 34v292M914 34v292M1014 34v292M1114 34v292"/>
+    <path d="M34 94h1132M34 154h1132M34 214h1132M34 274h1132"/>
+  </g>
+  <path d="M248 246c98-86 193-126 286-120 99 6 183 75 264 81 70 5 140-35 222-109" stroke="#f6d365" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#ffffff">
+    <circle cx="248" cy="246" r="9"/>
+    <circle cx="534" cy="126" r="9"/>
+    <circle cx="798" cy="207" r="9"/>
+    <circle cx="1020" cy="98" r="9"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="74" y="92" fill="#ffffff" font-size="40" font-weight="700">NFL Big Data Bowl 2026</text>
+    <text x="76" y="132" fill="#b7d7c5" font-size="21">tracking data -> engineered features -> LGBM + MLP residuals -> coordinates</text>
+    <g transform="translate(76 190)">
+      <rect width="184" height="52" rx="12" fill="#224f32"/>
+      <text x="22" y="34" fill="#ffffff" font-size="18" font-weight="600">last observation</text>
+    </g>
+    <g transform="translate(306 190)">
+      <rect width="194" height="52" rx="12" fill="#224f32"/>
+      <text x="22" y="34" fill="#ffffff" font-size="18" font-weight="600">feature factory</text>
+    </g>
+    <g transform="translate(546 190)">
+      <rect width="164" height="52" rx="12" fill="#31496e"/>
+      <text x="22" y="34" fill="#ffffff" font-size="18" font-weight="600">LightGBM</text>
+    </g>
+    <g transform="translate(756 190)">
+      <rect width="168" height="52" rx="12" fill="#6a4d2f"/>
+      <text x="22" y="34" fill="#ffffff" font-size="18" font-weight="600">MLP residual</text>
+    </g>
+    <g transform="translate(970 190)">
+      <rect width="146" height="52" rx="12" fill="#2f6f6d"/>
+      <text x="22" y="34" fill="#ffffff" font-size="18" font-weight="600">submission</text>
+    </g>
+  </g>
+</svg>

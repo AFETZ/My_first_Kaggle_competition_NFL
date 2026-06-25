@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Kaggle/local artifacts
+submission.csv
+submission.parquet
+*.pkl
+*.joblib
+data/
+input/
+outputs/
